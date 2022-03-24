@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const expressLayout = require("express-ejs-layouts");
 const path = require("path");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3200;
 
 //Assets
 app.use(express.static("public"));
